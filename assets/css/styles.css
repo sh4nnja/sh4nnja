@@ -1,0 +1,128 @@
+/*--------------------------------------------------------*/
+/* Navigation */
+#nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav-li {
+  float: right;
+}
+
+#nav-a{
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: small;
+  letter-spacing: 2px;
+  color: #FBFBFB;
+}
+
+#nav-a:hover {
+  color: #716969
+}
+
+#nav-cta {
+  background-color: #716969;
+  display: block;
+  text-align: center;
+  margin: 7px 1px 7px 1px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #FBFBFB;
+}
+
+#nav-cta:hover {
+  background-color: #0F0F0F;
+  border: 1px solid #716969;
+  color: #716969;
+  margin: 6px 0px 6px 0px;
+}
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Logo */
+#logo-li {
+  float: left;
+}
+
+#logo-a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Kanit;
+  font-weight: 900;
+  font-size: small;
+  letter-spacing: 2px;
+  color: #FBFBFB;
+}
+
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Introduction Section*/
+#intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#intro-h1{
+  text-align: center;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: 250%;
+  letter-spacing: 5px;
+  color: #FBFBFB;
+}
+
+#intro-str{
+  text-align: center;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: 100%;
+  letter-spacing: 5px;
+  color: #716969;
+}
+
+#intro-p {
+  text-align: center;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 100%;
+  letter-spacing: 2px;
+  color: #FBFBFB;
+}
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Background */
+/* Image Background */
+#img-bg {
+  background: url(../img/bg.webp) no-repeat bottom left;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.005;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #0F0F0F;
+}
+/*--------------------------------------------------------*/
