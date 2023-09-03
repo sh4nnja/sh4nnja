@@ -1,85 +1,14 @@
 /*--------------------------------------------------------*/
-/* Navigation */
-#nav-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+/* GLOBALS */
+html {
+  scroll-behavior: smooth;
 }
 
-#nav-li {
-  float: right;
+div {
+  display: flex;
 }
 
-#nav-a{
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: Kanit;
-  font-size: small;
-  letter-spacing: 2px;
-  color: #FBFBFB;
-}
-
-#nav-a:hover {
-  color: #716969
-}
-
-#nav-cta {
-  background-color: #716969;
-  display: block;
-  text-align: center;
-  margin: 7px 1px 7px 1px;
-  padding: 8px 20px 8px 20px;
-  text-decoration: none;
-  font-family: Kanit;
-  font-size: small;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #FBFBFB;
-}
-
-#nav-cta:hover {
-  background-color: #0F0F0F;
-  border: 1px solid #716969;
-  color: #716969;
-  margin: 6px 0px 6px 0px;
-}
-/*--------------------------------------------------------*/
-
-/*--------------------------------------------------------*/
-/* Logo */
-#logo-li {
-  float: left;
-}
-
-#logo-a {
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: Kanit;
-  font-weight: 900;
-  font-size: small;
-  letter-spacing: 2px;
-  color: #FBFBFB;
-}
-
-/*--------------------------------------------------------*/
-
-/*--------------------------------------------------------*/
-/* Introduction Section*/
-#intro {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-#intro-h1{
+h1 {
   text-align: center;
   text-decoration: none;
   font-family: Kanit;
@@ -88,7 +17,41 @@
   color: #FBFBFB;
 }
 
-#intro-str{
+h2 {
+  text-align: center;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: 150%;
+  letter-spacing: 5px;
+  color: #FBFBFB;
+}
+
+p {
+  padding: 0% 0% 0% 0%;
+  text-align: center;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 100%;
+  letter-spacing: 2px;
+  color: #FBFBFB;
+}
+
+a {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: small;
+  letter-spacing: 2px;
+  color: #FBFBFB;
+}
+
+a:hover {
+  color: #716969
+}
+
+b {
   text-align: center;
   text-decoration: none;
   font-family: Kanit;
@@ -97,13 +60,128 @@
   color: #716969;
 }
 
-#intro-p {
+.middle-flex-padding {
+  padding-bottom: 15%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middle-flex {
+  justify-content: center;
+  flex-direction: column;
+}
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Navigation Bar*/
+#logo-nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  top: 0;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  width: 96.5%;
+}
+
+#nav-cta {
+  background-color: #716969;
   text-align: center;
+  margin: 7px 7px 7px 7px;
+  padding: 8px 20px 8px 20px;
   text-decoration: none;
-  font-family: Open Sans;
-  font-size: 100%;
+  font-family: Kanit;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#nav-cta:hover {
+  background-color: #0F0F0F;
+  border: 1px solid #716969;
+  color: #716969;
+  margin: 6px 6px 6px 6px;
+}
+
+#logo-cta {
+  margin-right: auto;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: small;
+  letter-spacing: 2px;
+}
+
+#logo-cta:hover {
+  float: right;
+  color: #FBFBFB;
+}
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Introduction Section*/
+#intro-div {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* About Section */
+#about-div {
+  padding-top: 10%;
+}
+
+#social-div {
+  flex-direction: row;
+}
+
+#links {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: x-large;
   letter-spacing: 2px;
   color: #FBFBFB;
+}
+
+#links:hover {
+  color: #716969;
+}
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Experience Section */
+#exp-div {
+  padding-top: 10%;
+}
+
+#create-categ-div {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 15%;
+}
+
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* My Creations Section */
+#create-div {
+  padding-top: 10%;
+}
+
+
+/*--------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* Icons */
+i {
+  color: #716969;
 }
 /*--------------------------------------------------------*/
 
