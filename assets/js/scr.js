@@ -5,8 +5,8 @@ let currentIndex = 0;
 let charIndex = 0;
 
 function typeWriterEffect() {
+    currentIndex = Math.floor(Math.random() * txtPool.length - 1);
     let currentText = txtPool[currentIndex];
-
     function type() {
         if (charIndex < currentText.length) {
             textElement.innerHTML += currentText.charAt(charIndex);
@@ -32,5 +32,4 @@ function typeWriterEffect() {
     }
   type();
 }
-currentIndex = Math.floor(Math.random() * txtPool.length - 1);
 window.addEventListener("load", typeWriterEffect);

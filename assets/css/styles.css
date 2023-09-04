@@ -123,7 +123,7 @@ b {
 
 /*--------------------------------------------------------*/
 /* Introduction Section*/
-#intro-div {
+#introduction {
   padding-top: 15%;
   padding-bottom: 15%;
 }
@@ -131,11 +131,11 @@ b {
 
 /*--------------------------------------------------------*/
 /* About Section */
-#about-div {
+#about {
   padding-top: 10%;
 }
 
-#social-div {
+#contacts {
   flex-direction: row;
 }
 
@@ -157,7 +157,7 @@ b {
 
 /*--------------------------------------------------------*/
 /* Experience Section */
-#exp-div {
+#experiences {
   padding-top: 10%;
 }
 
@@ -171,7 +171,7 @@ b {
 
 /*--------------------------------------------------------*/
 /* My Creations Section */
-#create-div {
+#creations {
   padding-top: 10%;
 }
 
