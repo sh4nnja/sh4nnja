@@ -36,18 +36,18 @@ p {
   color: #FBFBFB;
 }
 
-a {
-  float: right;
+a, button {
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 18px;
   text-decoration: none;
   font-family: Kanit;
   font-size: small;
   letter-spacing: 2px;
   color: #FBFBFB;
+  transition: 0.4s;
 }
 
-a:hover {
+a:hover, button:hover {
   color: #716969
 }
 
@@ -70,10 +70,44 @@ b {
   justify-content: center;
   flex-direction: column;
 }
+
+#create-categ-div {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 15%;
+}
+
+#word-a {
+  padding: 0px 0px;
+  text-decoration: underline;
+  font-family: Open Sans;
+  font-size: medium;
+  letter-spacing: 2px;
+  color: #FBFBFB;
+}
+
+#word-a:hover {
+  color: #716969;
+}
 /*--------------------------------------------------------*/
 
 /*--------------------------------------------------------*/
 /* Navigation Bar*/
+.cta {
+  background-color: #716969;
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid #716969;
+  outline: none;
+  transition: 0.4s;
+}
+
+.cta:hover {
+  background-color: #0F0F0F;
+  border: 1px solid #716969;
+  color: #716969;
+}
+
 #logo-nav-bar {
   display: flex;
   flex-direction: row-reverse;
@@ -83,25 +117,6 @@ b {
   overflow: hidden;
   position: fixed;
   width: 96.5%;
-}
-
-#nav-cta {
-  background-color: #716969;
-  text-align: center;
-  margin: 7px 7px 7px 7px;
-  padding: 8px 20px 8px 20px;
-  text-decoration: none;
-  font-family: Kanit;
-  font-size: small;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-#nav-cta:hover {
-  background-color: #0F0F0F;
-  border: 1px solid #716969;
-  color: #716969;
-  margin: 6px 6px 6px 6px;
 }
 
 #logo-cta {
@@ -161,10 +176,49 @@ b {
   padding-top: 10%;
 }
 
-#create-categ-div {
+#exp-label {
+  text-align: start;
+  width: 100%;
+}
+
+#exp-content {
+  padding-left: 5%;
+  width: 85%;
+  text-align: justify;
+}
+
+.accordion {
+  margin: 0% 2% 0% 2%;
+  background-color: #716969;
+  cursor: pointer;
+  width: 76%;
+  text-align: left;
+  border: 1px solid #716969;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #0F0F0F;
+  border: 1px solid #716969;
+  color: #716969;
+}
+
+.accordion:after {
+  font-size: 13px;
+  color: #716969;
+  float: right;
+  margin-left: 5px;
+}
+
+
+.panel {
+  padding: 10px 50px;
   flex-direction: column;
-  align-items: flex-start;
-  padding-left: 15%;
+  width: 76%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
 }
 
 /*--------------------------------------------------------*/
