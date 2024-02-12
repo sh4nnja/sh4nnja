@@ -34,5 +34,6 @@
 
 <h3 align="left">Connect with me! (Other socials will be attached soon!)</h3>
 <p align="left">
-<a href="https://discord.gg/sh4nnja" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="sh4nnja" height="30" width="40" /></a>
+<a href="https://discord.gg/sh4nnja" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="sh4nnja" height="40" width="40" /></a>
+<a href="https://sh4nn.itch.io" target="blank"><img align="center" src="https://static.wikia.nocookie.net/logopedia/images/0/01/Itch_io.svg" alt="sh4nnja" height="40" width="60" /></a>
 </p>
