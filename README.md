@@ -18,7 +18,7 @@
 <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> 
 <a href="https://www.blockbench.net" target="_blank" rel="noreferrer"> <img src="https://www.blockbench.net/images/logos/icon.png" alt="blockbench" width="40" height="40"/> </a> 
 <a href="https://www.blender.org" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg" alt="blender" width="40" height="40"/> </a> 
-<a href="https://www.piskelapp.com" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/28667131?s=280&v=4" alt="blender" width="40" height="40"/> </a>
+<a href="https://www.piskelapp.com" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/28667131?s=280&v=4" alt="piskel" width="40" height="40"/> </a>
 <a href="https://godotengine.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/godotengine/godotengine-icon.svg" alt="godot" width="40" height="40"/> </a> 
 </p>
 
