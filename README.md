@@ -1,9 +1,7 @@
 <h1 align="center">Hi! I'm Shannja!</h1>
 <h3 align="center">A passionate multimedia enthusiast!</h3>
 
-- 🔭 I’m currently working as [Freelance!](https://www.freelancer.com/u/shannjamalelang)
-
-- 📄 Know about my [experiences!](https://sh4nnja.github.io)
+- 📄 Know about my [experiences!](https://sh4nnja.github.io/sh4nnja)
 
 - 💖 See my [work!](https://sh4nn.itch.io)
 
